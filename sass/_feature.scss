@@ -1,0 +1,22 @@
+.feature {
+  margin-bottom: 130px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 170px;
+  }
+  &-desc{
+    margin-bottom: 23px;
+  }
+  &-list{
+    list-style: none;
+  }
+  &-item{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}
